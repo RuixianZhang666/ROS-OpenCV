@@ -1,8 +1,8 @@
-prefix=/home/zrxlovedjl/cv_ws2/devel
+prefix=/home/zrxlovedjl/ROS-OpenCV/devel
 
 Name: ros_cv
 Description: Description of ros_cv
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/zrxlovedjl/cv_ws2/devel/lib 
+Libs: -L/home/zrxlovedjl/ROS-OpenCV/devel/lib 
 Requires: 
