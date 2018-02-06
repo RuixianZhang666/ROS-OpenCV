@@ -6,7 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/zrxlovedjl/cv_ws2/src/ros_cv/src/my_sub1.cpp
+/home/zrxlovedjl/ROS-OpenCV/src/cv_bridge/include/cv_bridge/cv_bridge.h
+sensor_msgs/Image.h
+-
+sensor_msgs/CompressedImage.h
+-
+sensor_msgs/image_encodings.h
+-
+ros/static_assert.h
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/imgproc/types_c.h
+-
+stdexcept
+-
+
+/home/zrxlovedjl/ROS-OpenCV/src/ros_cv/src/my_sub1.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -34,24 +52,6 @@ string
 vector
 -
 time.h
--
-
-/opt/ros/indigo/include/cv_bridge/cv_bridge.h
-sensor_msgs/Image.h
--
-sensor_msgs/CompressedImage.h
--
-sensor_msgs/image_encodings.h
--
-ros/static_assert.h
--
-opencv2/core/core.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-opencv2/imgproc/types_c.h
--
-stdexcept
 -
 
 /opt/ros/indigo/include/image_transport/camera_publisher.h

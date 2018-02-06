@@ -1,8 +1,8 @@
-# Install script for directory: /home/zrxlovedjl/cv_ws2/src/ros_cv
+# Install script for directory: /home/zrxlovedjl/ROS-OpenCV/src/ros_cv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zrxlovedjl/cv_ws2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zrxlovedjl/ROS-OpenCV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/build/ros_cv/catkin_generated/installspace/ros_cv.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/build/ros_cv/catkin_generated/installspace/ros_cv.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_cv/cmake" TYPE FILE FILES
-    "/home/zrxlovedjl/cv_ws2/build/ros_cv/catkin_generated/installspace/ros_cvConfig.cmake"
-    "/home/zrxlovedjl/cv_ws2/build/ros_cv/catkin_generated/installspace/ros_cvConfig-version.cmake"
+    "/home/zrxlovedjl/ROS-OpenCV/build/ros_cv/catkin_generated/installspace/ros_cvConfig.cmake"
+    "/home/zrxlovedjl/ROS-OpenCV/build/ros_cv/catkin_generated/installspace/ros_cvConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_cv" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/src/ros_cv/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_cv" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/src/ros_cv/package.xml")
 endif()
 

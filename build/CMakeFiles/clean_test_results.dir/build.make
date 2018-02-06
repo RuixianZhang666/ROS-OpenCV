@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zrxlovedjl/cv_ws2/src
+CMAKE_SOURCE_DIR = /home/zrxlovedjl/ROS-OpenCV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zrxlovedjl/cv_ws2/build
+CMAKE_BINARY_DIR = /home/zrxlovedjl/ROS-OpenCV/build
 
 # Utility rule file for clean_test_results.
 
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/zrxlovedjl/cv_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zrxlovedjl/cv_ws2/src /home/zrxlovedjl/cv_ws2/src /home/zrxlovedjl/cv_ws2/build /home/zrxlovedjl/cv_ws2/build /home/zrxlovedjl/cv_ws2/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zrxlovedjl/ROS-OpenCV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zrxlovedjl/ROS-OpenCV/src /home/zrxlovedjl/ROS-OpenCV/src /home/zrxlovedjl/ROS-OpenCV/build /home/zrxlovedjl/ROS-OpenCV/build /home/zrxlovedjl/ROS-OpenCV/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

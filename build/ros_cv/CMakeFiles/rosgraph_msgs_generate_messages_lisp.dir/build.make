@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zrxlovedjl/cv_ws2/src
+CMAKE_SOURCE_DIR = /home/zrxlovedjl/ROS-OpenCV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zrxlovedjl/cv_ws2/build
+CMAKE_BINARY_DIR = /home/zrxlovedjl/ROS-OpenCV/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -53,10 +53,10 @@ ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_msgs_
 .PHONY : ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/zrxlovedjl/cv_ws2/build/ros_cv && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/zrxlovedjl/ROS-OpenCV/build/ros_cv && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/zrxlovedjl/cv_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zrxlovedjl/cv_ws2/src /home/zrxlovedjl/cv_ws2/src/ros_cv /home/zrxlovedjl/cv_ws2/build /home/zrxlovedjl/cv_ws2/build/ros_cv /home/zrxlovedjl/cv_ws2/build/ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zrxlovedjl/ROS-OpenCV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zrxlovedjl/ROS-OpenCV/src /home/zrxlovedjl/ROS-OpenCV/src/ros_cv /home/zrxlovedjl/ROS-OpenCV/build /home/zrxlovedjl/ROS-OpenCV/build/ros_cv /home/zrxlovedjl/ROS-OpenCV/build/ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_cv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

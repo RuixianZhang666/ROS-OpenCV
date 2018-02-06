@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zrxlovedjl/cv_ws2/src/ros_cv/src/my_pub.cpp" "/home/zrxlovedjl/cv_ws2/build/ros_cv/CMakeFiles/roscvpub.dir/src/my_pub.cpp.o"
+  "/home/zrxlovedjl/ROS-OpenCV/src/ros_cv/src/my_pub.cpp" "/home/zrxlovedjl/ROS-OpenCV/build/ros_cv/CMakeFiles/roscvpub.dir/src/my_pub.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,15 +17,16 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/zrxlovedjl/ROS-OpenCV/build/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/home/zrxlovedjl/ROS-OpenCV/src/cv_bridge/include"
   "/opt/ros/indigo/include"
-  "/usr/include/opencv"
-  "/home/zrxlovedjl/cv_ws2/src/ros_cv/include"
   "/usr/local/include"
   "/usr/local/include/opencv"
+  "/home/zrxlovedjl/ROS-OpenCV/src/ros_cv/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -1,2 +1,2 @@
-ros_cv
+cv_bridge:ros_cv
 -DCATKIN_DEVEL_PREFIX=/home/zrxlovedjl/ROS-OpenCV/devel -DCMAKE_INSTALL_PREFIX=/home/zrxlovedjl/ROS-OpenCV/install -G Unix Makefiles

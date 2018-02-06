@@ -5,14 +5,16 @@
       
     void imageCallback(const sensor_msgs::ImageConstPtr& msg)  
     {  
+	cv_bridge::CvImagePtr cv_ptr; // 声明一个CvImage指针的实例
       try  
       {  
-        cv::imshow("view", cv_bridge::toCvShare(msg, "bgr8")->image);  
+        cv_ptr =  cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::RGB8);  
       }  
       catch (cv_bridge::Exception& e)  
       {  
         ROS_ERROR("Could not convert from '%s' to 'bgr8'.", msg->encoding.c_str());  
       }
+	cv::imshow("view",cv_ptr->image);
 	  //image_process(cv_ptr->image); //得到了cv::Mat类型的图象，在CvImage指针的image中，将结果传送给处理函数    
     }  
       

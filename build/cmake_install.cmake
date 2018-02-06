@@ -1,8 +1,8 @@
-# Install script for directory: /home/zrxlovedjl/cv_ws2/src
+# Install script for directory: /home/zrxlovedjl/ROS-OpenCV/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zrxlovedjl/cv_ws2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zrxlovedjl/ROS-OpenCV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,80 +44,81 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/_setup_util.py")
+   "/home/zrxlovedjl/ROS-OpenCV/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE PROGRAM FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE PROGRAM FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/env.sh")
+   "/home/zrxlovedjl/ROS-OpenCV/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE PROGRAM FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE PROGRAM FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/setup.bash")
+   "/home/zrxlovedjl/ROS-OpenCV/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/setup.sh")
+   "/home/zrxlovedjl/ROS-OpenCV/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/setup.zsh")
+   "/home/zrxlovedjl/ROS-OpenCV/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zrxlovedjl/cv_ws2/install/.rosinstall")
+   "/home/zrxlovedjl/ROS-OpenCV/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/zrxlovedjl/cv_ws2/install" TYPE FILE FILES "/home/zrxlovedjl/cv_ws2/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/zrxlovedjl/ROS-OpenCV/install" TYPE FILE FILES "/home/zrxlovedjl/ROS-OpenCV/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zrxlovedjl/cv_ws2/build/gtest/cmake_install.cmake")
-  include("/home/zrxlovedjl/cv_ws2/build/ros_cv/cmake_install.cmake")
+  include("/home/zrxlovedjl/ROS-OpenCV/build/gtest/cmake_install.cmake")
+  include("/home/zrxlovedjl/ROS-OpenCV/build/cv_bridge/cmake_install.cmake")
+  include("/home/zrxlovedjl/ROS-OpenCV/build/ros_cv/cmake_install.cmake")
 
 endif()
 
@@ -129,5 +130,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zrxlovedjl/cv_ws2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zrxlovedjl/ROS-OpenCV/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
